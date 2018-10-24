@@ -1,0 +1,45 @@
+
+.universal_style{
+    width: 70%;
+    height: 150px;
+    margin: 2% auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+main{
+    background-image: url("../images/download.jpg");
+}
+div{
+    background-image: url("../images/download.jpg");
+}
+ h3{ 
+    padding: 5%;
+    box-sizing: border-box;
+    background: rgba(37, 71, 94, 0.514);
+   margin-top: -0.2%;
+}
+ h3.universal_style{
+     width: 100%;
+ }
+
+article{
+    position: relative;
+}
+
+
+article::after{
+    content: "";
+    background-image: url("../images/download.jpg");
+    opacity: 0.5;
+    width:100%;
+    height: 150px; 
+    display: flex;
+    margin: 2% auto;
+    position: absolute;
+    z-index: -1;   
+} 
